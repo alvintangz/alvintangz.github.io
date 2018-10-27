@@ -1,0 +1,14 @@
+.cover-contact-us {
+	background: url('covers/mail-1246.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center; 
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+input, select, textarea {
+	margin: 2px 0 17px;
+}

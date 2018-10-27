@@ -1,0 +1,148 @@
+.cover-attendee {
+	background: url('covers/attend-1343.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center; 
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+#fb-event {
+	background-color: #3b5998;
+	color: #fff;
+	text-align: center;
+	padding: 25px 0;
+}
+
+#fb-event a {
+	color: #fff;
+	text-decoration: none;
+	padding: 15px;
+}
+
+#fb-event a:hover {
+	color: #3b5998;
+	background-color: #f2f2f2;
+}
+
+#about, #faq {
+	background-color: #fafafa;
+	padding: 75px 0;
+	color: #333;
+}
+
+#where-and-when {
+	background-color: #333;
+	padding: 75px 0;
+	color: #fff;
+}
+
+#artists {
+	background: url('covers/art-1341.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center; 
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	padding: 75px 0;
+	color: #333;
+}
+
+#get-tickets {
+	padding: 75px 0;
+}
+
+.cb-artists {
+	background-color: #fafafa;
+	border:1px solid #ddd;
+	padding: 20px;
+	width: 600px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.faq-contain {
+	text-align: center;
+}
+
+@media(max-width:700px) {
+	.faq-contain {
+		text-align: left;
+	}
+
+	.faq-box {
+		display: block;
+		height: inherit !important;
+		width: inherit !important;
+		padding: 10px 0 !important;
+	}
+
+	.cb-artists {
+		width: 300px;
+	}
+}
+
+@media(max-width:370px) {
+
+	.cb-artists {
+		width: 100px;
+	}
+}
+
+.faq-box {
+	width: 300px;
+	height: 180px;
+	display: inline-block;
+	padding: 15px;
+	vertical-align: top;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.faq-box .bold {
+	margin-bottom: 6px;
+}
+
+.ticket-box {
+	background-color: #333;
+	color: #fafafa;
+	vertical-align: top;
+	width: 340px;
+	text-align: center;
+	padding: 20px 15px;
+	display: inline-block;
+}
+
+.tb-mr {
+	margin-right: 8px;
+}
+
+.ticket-box a {
+	text-decoration: none;
+	color: #333;
+	margin-top: 15px;
+	background-color: #fafafa;
+	padding: 15px;
+	display: block;
+}
+
+.ticket-box a:hover {
+	background-color: #eee;
+}
+
+@media(max-width: 900px) {
+	.ticket-box {
+		background-color: #333;
+		padding: 20px 15px;
+		width: inherit !important;
+	}
+
+	.tb-mr {
+		margin-right: 0px;
+		margin-bottom: 8px;
+	}
+}
