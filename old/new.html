@@ -1,0 +1,321 @@
+﻿<!doctype html>
+<html lang="en-CA">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<title>Alvin Tang</title>
+		<meta name="description" content="Alvin Tang is a computer science student specializing in software engineering at the University of Toronto. This is his website." />
+		<meta name="image" content="http://alvintang.me/assets/images/social-media.jpg">
+		<!-- Schema.org for Google -->
+		<meta itemprop="name" content="Alvin Tang">
+		<meta itemprop="description" content="Alvin Tang is a computer science student specializing in software engineering at the University of Toronto. This is his website.">
+		<meta itemprop="image" content="http://alvintang.me/assets/images/social-media.jpg">
+		<!-- Open Graph general (Facebook, Pinterest & Google+) -->
+		<meta name="og:title" content="Alvin Tang">
+		<meta name="og:description" content="Alvin Tang is a computer science student specializing in software engineering at the University of Toronto. This is his website.">
+		<meta name="og:image" content="http://alvintang.me/assets/images/social-media.jpg">
+		<meta name="og:url" content="http://alvintang.me">
+		<meta name="og:site_name" content="Alvin Tang">
+		<meta name="og:locale" content="en_CA">
+		<meta name="fb:admins" content="100004608120904">
+		<meta name="og:type" content="website">
+		<link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+		<link rel="manifest" href="assets/favicons/manifest.json">
+		<link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#3686be">
+		<meta name="theme-color" content="#ffffff">
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+		<link href="assets/styles/bootstrap.css" rel="stylesheet" />
+		<style>
+
+			::-moz-selection {background: #f79256; color:#fff;}
+			
+			::selection {background: #f79256; color:#fff;}
+
+			html,body {
+				width: 100%;
+				height: 100%;
+			}
+
+			.content {
+				display: none;
+			}
+
+			header {
+				position: relative;
+				width: 100%;
+				height: 100%;
+				min-height: 500px;
+			}
+
+			h1, h2, h3 {
+				cursor: default;
+			}
+
+			#bgOne {
+				background: url('assets/images/bg-1.jpg') no-repeat center center fixed;
+				background-size: cover;
+				width: 100%;
+				height: 100%;
+				min-height: 500px;
+			}
+
+			#bgTwo {
+				background: url('assets/images/bg-2.jpg') no-repeat center center fixed;
+				background-size: cover;
+				width: 100%;
+				height: 100%;
+				min-height: 500px;
+				display: none;
+			}
+
+			#containHeaderCentre, .center-abs {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				cursor: default;
+			}
+
+			#scrollDownNotification {
+				position: absolute;
+				bottom: 0;
+				left: 50%;
+				transform: translateX(-50%);
+				cursor: default;
+			}
+
+			.btn-outline-secondary:hover {
+				color: #fff;
+			}
+
+			.faux-browser {
+				box-shadow: 0 0.25em 0.9em -0.1em #333;
+				border-radius: 4px 4px 0 0;
+				max-height:500px;
+				overflow-y: hidden;
+			}
+
+			.faux-browser-bar {
+				background-color: #dbdbdb;
+				padding:5px 15px;
+				border-radius: 4px 4px 0 0;
+			}
+
+			.faux-browser-bar i {
+				background-color: #333;
+				border-radius: 10px;
+				width: 10px;
+				height: 10px;
+				margin-right: 3px;
+				display: inline-block;
+			}
+
+			.faux-browser-bar i:nth-child(1) {
+				background-color: rgb(255, 86, 79)
+			}
+
+			.faux-browser-bar i:nth-child(2) {
+				background-color: rgb(255, 183, 42)
+			}
+
+			.faux-browser-bar i:nth-child(3) {
+				background-color: rgb(37, 198, 58)
+			}
+
+			.skill-visual {
+				width: 0%;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div id="loader">
+			<img src="assets/images/ajax-loader.gif" class="center-abs" alt="Page is loading." />
+		</div>
+		<header class="content">
+			<div id="bgOne"></div>
+			<div id="bgTwo"></div>
+			<div id="containHeaderCentre" class="text-center">
+				<h1 class="m-0 text-uppercase">Alvin <span class="font-weight-normal">Tang</span></h1>
+				<p class="m-0 h5 font-weight-normal">Student; Developer; Adventure Seeker</p>
+			</div>
+			<p id="scrollDownNotification" class="font-weight-bold mb-3">Scroll Down Please</p>
+		</header>
+		<main class="content">
+			<section class="border-top p-5">
+				<h2 class="mt-0 mr-0 ml-0 mb-3 text-uppercase">About Me</h2>
+				<div class="container-fluid p-0">
+					<div class="row">
+						<div class="col-sm-8">
+							<!--
+							<div class="mb-3">
+								<p><a href="#" class="btn btn-outline-secondary mr-2 disabled">Resume</a><a href="https://www.linkedin.com/in/alvintangz/" class="btn btn-outline-primary">Linkedin</a></p>
+							</div>
+							-->
+							<p><strong>Bonjour!</strong> I am a computer science student specializing in software engineering at the University of Toronto. I constantly dream of building applications using new technologies, hoping to be apart of the future.</p>
+							<p>What got me started in programming was having a keen interest in building a website to post homework due dates for fellow class mates in middle school. Thus, I had started learning front-end web development with HTML5 and CSS3 coming out at the time. Once I actually started building websites, I chose to learn some back end programming with PHP and also enrol in all the computer science classes that my high school had. As years progressed, I have learned multiple languages from past classes, projects, or work terms.</p>
+							<p>I am always interested in improving on existing skills or developing new ones. However, I only do my best learning when I get my hands dirty and actually build something. Feel free to contact me if you are interested in giving an individual an opportunity to learn while also providing a final product.</p>
+						</div>
+						<div class="col-sm-4" id="moreInfo">
+							<p class="mb-0"><strong>HTML/CSS</strong> - Web Design</p>
+							<div class="progress mb-3">
+  								<div class="progress-bar skill-visual" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" id="sv-wd">100%</div>
+							</div>
+							<p class="mb-0"><strong>Python/PHP/Java</strong> - Programming</p>
+							<div class="progress mb-3">
+  								<div class="progress-bar skill-visual" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" id="sv-p">90%</div>
+							</div>
+							<p class="mb-0"><strong>Apache on Ubuntu</strong> - Systems Administration</p>
+							<div class="progress mb-3">
+  								<div class="progress-bar skill-visual" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" id="sv-sa">70%</div>
+							</div>
+							<p><strong>Previously worked with </strong> HTML, CSS, Javascript, jQuery, Python, PHP, Bootstrap, ColdFusion, C, Java, Bootstrap Framework, Apache HTTP Server on Ubuntu</p>
+							<p><strong>Currently interested in developing/improving skills in </strong> Amazon Web Services, Django, PHP, JavaScript, Mobile Android Development in Kotlin</p>
+						</div>
+					</div>
+				</div>
+				<h3>Education</h3>
+				<div class="border-left border-dark pl-3 item-dlist">
+					<p class="mb-0" style="overflow:auto"><strong class="float-left">Honours Bachelors of Science, Candidate</strong><span class="float-right">Sept 2016 - Present</span></p>
+					<p class="mb-0">Specialist in Computer Science - Software Engineering, Co-op</p>
+					<p>University of Toronto</p>
+				</div>
+				<h3>Experience</h3>
+				<div class="border-left border-dark pl-3 item-dlist">
+					<p class="mb-0" style="overflow:auto"><strong class="float-left">Instructor</strong><span class="float-right ml-3">May 2018 - Present</span></p>
+					<p class="mb-1">Project Include</p>
+					<p>Currently building a curriculum on the basic foundations of coding to be implemented as an instructor to children in neighborhoods with low incomes.</p>
+				</div>
+				<div class="border-left border-dark pl-3 item-dlist">
+					<p class="mb-0" style="overflow:auto"><strong class="float-left">Information Technology Solutions Manager</strong><span class="float-right ml-3">Mar 2018 - Present</span></p>
+					<p class="mb-1">LIVE Competition</p>
+					<p>Developing an online dashboard for sponsors, delegates and executives to connect.</p>
+				</div>
+				<div class="border-left border-dark pl-3 item-dlist">
+					<p class="mb-0" style="overflow:auto"><strong class="float-left">Web Developer and Technical Support</strong><span class="float-right ml-3">Jan 2018 - Apr 2018</span></p>
+					<p class="mb-1">Public Services and Procurement Canada</p>
+					<p>Created and updated internal and external websites within the government that follows W3C standards.</p> 
+				</div>
+				<div class="mb-3">
+					<p><!--<a href="#" class="btn btn-outline-secondary mr-2 disabled">Resume</a>--><a href="https://www.linkedin.com/in/alvintangz/" class="btn btn-outline-primary">Linkedin</a></p>
+				</div>
+			</section>
+			<section class="border-top p-5">
+				<h2 class="mt-0 mr-0 ml-0 mb-3 text-uppercase" id="portfolio">Portfolio</h2>
+				<div class="container-fluid p-0">
+					<div class="row" id="portfolioItems">
+						<div class="col-md-4">
+							<a href="https://atng.me" target="_blank" title="Shorten.">
+								<div class="m-2 mb-4 faux-browser border" style="position:relative;">
+									<div class="faux-browser-bar">
+										<i></i><i></i><i></i>
+									</div>
+									<img src="assets/images/ajax-loader.gif" class="center-abs pLoad" alt="Item is loading." />
+									<img src="assets/images/ss-atng.png" class="img-fluid pDisplay" alt="Shorten website screenshot" style="display:none" />
+								</div>
+							</a>
+							<div class="m-2 mb-4">
+								<h3>Shorten.</h3>
+								<p class="mb-0"><strong>Web Development</strong> / Personal</p>
+								<p class="mb-0">PHP, jQuery, HTML, CSS, Bootstrap</p>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<a href="https://archives.alvintang.me/projects/prism/index.html" target="_blank" title="PRISM">
+								<div class="m-2 mb-4 faux-browser border" style="position:relative;">
+									<div class="faux-browser-bar">
+										<i></i><i></i><i></i>
+									</div>
+									<img src="assets/images/ajax-loader.gif" class="center-abs pLoad" alt="Item is loading." />
+									<img src="assets/images/ss-dprism.png" class="img-fluid pDisplay" alt="PRISM website screenshot" style="display:none" />
+								</div>
+							</a>
+							<div class="m-2 mb-4">
+								<h3>PRISM</h3>
+								<p class="mb-0"><strong>Web Design</strong> / School Organization</p>
+								<p class="mb-0">HTML, CSS</p>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<a href="https://archives.alvintang.me/projects/dragonboat/index.html" target="_blank" title="Crimson Tide">
+								<div class="m-2 mb-4 faux-browser border" style="position:relative;">
+									<div class="faux-browser-bar">
+										<i></i><i></i><i></i>
+									</div>
+									<img src="assets/images/ajax-loader.gif" alt="Item is loading." class="center-abs pLoad" />
+									<img src="assets/images/ss-dboat.png" alt="Crimson Tide website screenshot" class="img-fluid pDisplay" style="display:none" />
+								</div>
+							</a>
+							<div class="m-2 mb-4">
+								<h3>Crimson Tide</h3>
+								<p class="mb-0"><strong>Web Design</strong> / School Organization</p>
+								<p class="mb-0">HTML, CSS, Bootstrap</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="border-top content p-5">
+			<h2 class="mt-0 mr-0 ml-0 mb-3 text-uppercase">Get in touch</h2>
+			<p>Open-minded for any opportunities in Toronto or around the world.</p>
+			<dl class="row mb-1">
+  				<dt class="col-md-1">Phone</dt>
+  				<dd class="col-md-11">+1 647-785-8122</dd>
+   				<dt class="col-md-1">Email</dt>
+  				<dd class="col-md-11"><a href="mailto:alvin.tang@mail.utoronto.ca">alvin.tang@mail.utoronto.ca</a></dd>
+			</dl>
+			<ul class="list-unstyled p-0">
+				<li><p><a href="https://www.facebook.com/alvin.tangz">Facebook</a></p></li>
+				<li><p><a href="https://www.instagram.com/_alvintang/">Instagram</a></p></li>
+				<li><p><a href="https://github.com/alvintangz">Github</a></p></li>
+				<li><p><a href="https://www.linkedin.com/in/alvintangz/">Linkedin</a></p></li>
+			</ul>
+			<p class="text-center mt-4 mb-0"><small>Site by Alvin, Last Update 2018-07-10</small></p>
+		</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+
+			// Background toggle action with trigger being the scroll
+			$(window).on("load", function() {
+
+				$("#loader").fadeOut("slow");
+				$(".content").fadeIn("slow");
+				$(document).scroll(function(){
+
+					if($(window).scrollTop() == 0) {
+						$("#bgOne").show();
+						$("#bgTwo").hide();
+					} else {
+						$("#bgOne").hide();
+						$("#bgTwo").show();
+					}
+
+					if($("#moreInfo").offset().top < $(window).scrollTop() + $(window).outerHeight()) {
+						$("#sv-wd").css("width", "100%");
+						$("#sv-p").css("width", "90%");
+						$("#sv-sa").css("width", "70%");
+						$(".skill-visual").css("transition", "width 2s");
+					}
+
+					if($("#portfolioItems").offset().top < $(window).scrollTop() + $(window).outerHeight()) {
+						$(".pLoad").fadeOut(1000);
+						$(".pDisplay").fadeIn(3000);
+					}
+				});
+
+				var width = $(".faux-browser").width();
+  				$(".faux-browser").css("height", width);
+
+				$(window).resize(function() {
+					var width = $(".faux-browser").width();
+  					$(".faux-browser").css("height", width);
+				});
+			});
+		</script>
+	</body>
+</html>
