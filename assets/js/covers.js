@@ -1,6 +1,6 @@
 /*
 Author: Alvin Tang
-Last updated: 2019-01-11
+Last updated: 2019-01-21
 Intended only for use on Alvin Tang's personal website.
 */
 
@@ -72,7 +72,20 @@ function coversScroll() {
     
 }
 
+/*
+ * Preloads all cover images, by making new image objects for all covers which will not be used, but the images will be loaded by the browser to be used later.
+ * Will not work in some browsers.
+ */
+function preloadCoverImages() {
+    var images = [];
+    for (var i = 0; i < covers.length; i++) {
+        images[i] = new Image();
+        images[i].src = covers[i];
+    }
+}
+
 document.addEventListener("DOMContentLoaded", function(event) {
+    preloadCoverImages();
     coversInit();
 });
 
