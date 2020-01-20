@@ -4,15 +4,15 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<title>Alvin Tang</title>
-		<meta name="description" content="Alvin Tang is a computer science student specializing in software engineering at the University of Toronto. This is his website." />
+		<meta name="description" content="Alvin Tang is a computer science student specializing in software engineering at the University of Toronto." />
 		<meta name="image" content="http://alvintang.me/assets/images/social-media.jpg">
 		<!-- Schema.org for Google -->
 		<meta itemprop="name" content="Alvin Tang">
-		<meta itemprop="description" content="Alvin Tang is a computer science student specializing in software engineering at the University of Toronto. This is his website.">
+		<meta itemprop="description" content="Alvin Tang is a computer science student specializing in software engineering at the University of Toronto.">
 		<meta itemprop="image" content="http://alvintang.me/assets/images/social-media.jpg">
 		<!-- Open Graph general (Facebook, Pinterest & Google+) -->
 		<meta name="og:title" content="Alvin Tang">
-		<meta name="og:description" content="Alvin Tang is a computer science student specializing in software engineering at the University of Toronto. This is his website.">
+		<meta name="og:description" content="Alvin Tang is a computer science student specializing in software engineering at the University of Toronto.">
 		<meta name="og:image" content="http://alvintang.me/assets/images/social-media.jpg">
 		<meta name="og:url" content="http://alvintang.me">
 		<meta name="og:site_name" content="Alvin Tang">
@@ -25,144 +25,77 @@
 		<link rel="manifest" href="assets/favicons/manifest.json">
 		<link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#3686be">
 		<meta name="theme-color" content="#ffffff">
-		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
-		<link href="assets/styles/bootstrap.css" rel="stylesheet" />
-		<link href="assets/styles/covers.css" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:500,700|Work+Sans:900&display=swap" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap-grid.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<link href="/assets/css/main.css" rel="stylesheet" />
 	</head>
 	<body>
-		<header id="covers">
-			<div id="covers-container" class="covers-opacity-3 covers-parent-heading">
-				<div class="covers-heading text-center" id="covers-heading">
-					<h1 class="text-uppercase">A<span class="font-weight-normal" id="covers-heading-change">lvin Tang</span></h1>					<small class="text-uppercase h6 font-weight-normal">Please scroll down</small>
-				</div>
-				<div class="covers-img" id="covers1" style="background-image: url('assets/images/covers/1.jpg');"></div>
+		<header class="cover" id="header">
+			<div class="cover-content">
+				<span style="display:block; margin-bottom: -0.5rem; color: #fff;">Hi, I'm</span>
+				<h1 id="myName">Alvin Tang</h1>
+				<p>Computer Science Student at the University of Toronto</p>
+				<small style="display:block; padding-top:1rem; color: #fff;">Scroll down</small>
 			</div>
 		</header>
-		<main class="content">
-			<section class="border-top p-5" id="about">
-				<h2 class="mb-3 text-uppercase">About Me</h2>
-				<div class="row">
-					<div class="col-md-8">
-						<h3 class="text-uppercase">Biography</h3>
-						<div class="border-left border-dark pl-3 item-dlist">
-							<p><strong>Greetings!</strong> I am a computer science student specializing in software engineering at the University of Toronto, with a keen interest in web development. The thrill coming from building a virtual product that many may use, makes me want to continue on this path, and maybe discover new ones.</p>
-							<p>My interests in the field of computer science started when I built a website to post homework due dates for fellow class mates in middle school. This allowed me to learn about front-end web development, which was perfectly aligned at the time when major HTML5 and CSS3 standards were coming straight out of the minds of the W3C and into major browsers. From that period on, I chose to progress my knowledge, so I learned back-end development with PHP, and also enrolled in all the computer science classes that my high school could offered. As years progressed, I have learned multiple languages, frameworks and new methodologies from past classes, projects, or work terms.</p>
-							<p>I continuously strive to refine and expand my knowledge in the field of computer science. If you think I am a good match for an opportunity, I would be glad to hear about it.</p>
+		<div id="contentAndCovers">
+			<aside id="covers">
+				<div class="cover cover-1">
+					<div class="cover-content" data-aos="fade-down">
+						<h2>Experience</h2>
+					</div>
+				</div>
+				<div class="cover cover-2">
+					<div class="cover-content">
+						<h2>Projects</h2>
+					</div>
+				</div>
+				<div class="cover cover-3">
+					<div class="cover-content">
+						<h2>Contact</h2>
+					</div>
+				</div>
+			</aside>
+			<main data-aos="fade-up">
+				<section id="experience" data-cover="1">
+					<p>Since middle school, I've been developing for the web, from <strong><u>frontend</u></strong> to <strong><u>backend</u></strong> to <strong><u>deployment</u></strong> on the cloud.</p>
+					<p>Whether it be leading a group of student developers to teaching children how to code, my experiences are unique.</p>
+					<p><small>I'm interested in to web development, cloud deployment or artificial intelligence opportunities.</small></p>
+					<div class="experience-card">
+						<div class="experience-card-cover">
+							<span class="active-time">Since March 2019</span>
+							<h3 class="position">Vice President of Information Technology</h3>
+							<span class="organization">LIVE Competition</span>
+						</div>
+						<div class="experience-card-content">
+							<p>Developed a platform for business case competitions, while leading a team of eight student developers.</p>
+							<ul>
+								<li>JavaScript: Angular, ExpressJS, ws</li>
+								<li>Python: Django, Django Rest Framework, Celery</li>
+								<li>Persistence: Redis, PostgreSQL</li>
+								<li>DevOps: Azure DevOps, Azure Pipelines, Azure Kubernetes Service, Azure Managed DB</li>
+							</ul>
 						</div>
 					</div>
-					<div class="col-md-4">
-						<h3 class="text-uppercase">Technical Skills</h3>
-						<ul class="list-unstyled">
-							<li class="border-left border-dark pl-3 item-dlist">
-								<h4 class="text-uppercase h5">Front-end</h4>
-								<p>HTML5 // CSS3 // JavaScript // jQuery // Bootstrap</p>
-							</li>
-							<li class="border-left border-dark pl-3 item-dlist">
-								<h4 class="text-uppercase h5">Back-end</h4>
-								<p>Python 3 // Java // Django</p>
-							</li>
-							<li class="border-left border-dark pl-3 item-dlist">
-								<h4 class="text-uppercase h5">Deployment</h4>
-								<p>Ubuntu // Apache 2 // PAAS on Microsoft Azure</p>
-							</li>
-							<li class="border-left border-dark pl-3 item-dlist">
-								<h4 class="text-uppercase h5">Other Mentions</h4>
-								<p>MySQL // Microsoft SQL Server // Git (+ Github)</p>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<h3 class="text-uppercase">Education</h3>
-				<div class="border-left border-dark pl-3 item-dlist">
-					<p class="mb-0" style="overflow:auto"><strong class="float-left">Honours Bachelors of Science, Candidate</strong><span class="float-md-right ml-md-3"><span class="d-md-none">&nbsp;//&nbsp;</span>Sept 2016 - Present</span></p>
-					<p class="mb-0">Specialist in Computer Science - Software Engineering, Co-op</p>
-					<p>University of Toronto</p>
-				</div>
-				<h3 class="text-uppercase">Experience</h3>
-				<div class="border-left border-dark pl-3 item-dlist">
-					<p class="mb-0" style="overflow:auto"><strong class="float-left">Software Developer, Web and Mobile</strong><span class="float-md-right ml-md-3"><span class="d-md-none">&nbsp;//&nbsp;</span>May 2019 - Present</span></p>
-					<p class="mb-1">OpenText</p>
-					<p>On Co-op at OpenText Corporation, one of Canada's largest software companies, working on the AppWorks Gateway Development Team.</p>
-				</div>
-				<div class="border-left border-dark pl-3 item-dlist">
-					<p class="mb-0" style="overflow:auto"><strong class="float-left">Vice President of Information Technology / Product Manager and Lead Developer</strong><span class="float-md-right ml-md-3"><span class="d-md-none">&nbsp;//&nbsp;</span>Mar 2019 - Present</span></p>
-					<p class="mb-1">LIVE Competition</p>
-					<p>Currently acting as a product manager and lead developer of three other student developers, focusing on building a new platform with Django 2.2, Angular 8, and other technologies.</p>
-				</div>
-				<div class="border-left border-dark pl-3 item-dlist">
-					<p class="mb-0" style="overflow:auto"><strong class="float-left">Full Stack Developer</strong><span class="float-md-right ml-md-3"><span class="d-md-none">&nbsp;//&nbsp;</span>Mar 2018 - Mar 2019</span></p>
-					<p class="mb-1">LIVE Competition</p>
-					<p>Developed an online dashboard with Django, powered using IaaS and PaaS on Azure through a Microsoft collaboration; used by sponsors, 160 delegates, and 30+ judges within the competition.</p>
-				</div>
-				<div class="border-left border-dark pl-3 item-dlist">
-					<p class="mb-0" style="overflow:auto"><strong class="float-left">Instructor</strong><span class="float-md-right ml-md-3"><span class="d-md-none">&nbsp;//&nbsp;</span>May 2018 - Sept 2018</span></p>
-					<p class="mb-1">Project Include</p>
-					<p>Built a curriculum on the basic foundations of coding, which was implemented with 30 children in neighborhoods with low incomes. Taught courses in HTML/CSS and Python basics.</p>
-				</div>
-				<div class="border-left border-dark pl-3 item-dlist">
-					<p class="mb-0" style="overflow:auto"><strong class="float-left">Web Developer and Technical Support</strong><span class="float-md-right ml-md-3"><span class="d-md-none">&nbsp;//&nbsp;</span>Jan 2018 - Apr 2018</span></p>
-					<p class="mb-1">Public Services and Procurement Canada</p>
-					<p>Created and modified government websites following W3C standards using the WET framework for the front-end and ColdFusion for the back-end.</p>
-				</div>
-				<!--
-					<a href="assets/docs/AlvinTangResume.pdf" class="mt-3 btn btn-outline-primary">View Resume</a>
-				-->
-			</section>
-			<!---
-			<section class="border-top p-5" id="portfolio">
-				<h2 class="mt-0 mr-0 ml-0 mb-3 text-uppercase" id="portfolio">Portfolio</h2>
-				<div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
-				  <div class="carousel-inner" role="listbox">
+				</section>
+				<section id="projects" data-cover="2">
 
-				    <div class="carousel-item active">
-				      <div class="p-5">
-				      	<img class="d-block w-100" src="assets/images/ss-atng.png" alt="Second slide">
-				      </div>
+				</section>
+				<section id="contact" data-cover="3">
 
-				    <div class="carousel-item">
-				      <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg" alt="Second slide">
-				    </div>
-				    <div class="carousel-item">
-				      <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg" alt="Third slide">
-				    </div>
-				  </div>
-				  <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
-				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				    <span class="sr-only">Previous</span>
-				  </a>
-				  <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
-				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-				    <span class="sr-only">Next</span>
-				  </a>
-				</div>
-				<a href="https://github.com/alvintangz" class="mt-3 btn btn-outline-primary">View Github</a>
-			</section>
-			-->
-			<section class="border-top content p-5" id="contact">
-				<h2 class="mt-0 mr-0 ml-0 mb-3 text-uppercase">Get in touch</h2>
-				<p>Open-minded for any opportunities in Toronto or around the world.</p>
-				<dl class="row mb-1">
-						<dt class="col-md-1">Phone</dt>
-						<dd class="col-md-11">+1 647-785-8122</dd>
-						<dt class="col-md-1">Email</dt>
-						<dd class="col-md-11"><a href="mailto:alvin.tang@mail.utoronto.ca">alvin.tang@mail.utoronto.ca</a></dd>
-				</dl>
-				<ul class="list-unstyled p-0 mb-0">
-					<li><p><a href="https://www.facebook.com/alvin.tangz">Facebook</a></p></li>
-					<li><p><a href="https://www.instagram.com/_alvintang/">Instagram</a></p></li>
-					<li><p><a href="https://github.com/alvintangz">Github</a></p></li>
-					<li><p><a href="https://www.linkedin.com/in/alvintangz/">Linkedin</a></p></li>
-				</ul>
-			</section>
-		</main>
-		<footer class="border-top content px-5 py-4">
-			<p class="text-center m-0 my-2"><small>Site by Alvin, Last updated on 2019-07-01</small></p>
+				</section>
+			</main>
+		</div>
+		<footer>
+
 		</footer>
-		<script src="assets/js/covers.js"></script>
-<script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.bundle.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moveTo/1.8.2/moveTo.min.js"></script>
+		<script src="/assets/js/main.js"></script>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
 	</body>
 </html>
