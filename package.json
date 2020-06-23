@@ -1,0 +1,30 @@
+{
+  "name": "alvintangz.github.io",
+  "version": "1.0.0",
+  "description": "Alvin Tang's website.",
+  "scripts": {
+    "serve": "gulp serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvintangz/alvintangz.github.io.git"
+  },
+  "author": "Alvin Tang",
+  "bugs": {
+    "url": "https://github.com/alvintangz/alvintangz.github.io/issues"
+  },
+  "homepage": "https://github.com/alvintangz/alvintangz.github.io#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "node-sass": "^4.13.1"
+  },
+  "dependencies": {}
+}
