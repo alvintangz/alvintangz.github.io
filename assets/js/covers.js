@@ -7,7 +7,7 @@ Intended only for use on Alvin Tang's personal website.
 var container = document.getElementById("covers-container");
 var headings = document.getElementById("covers-heading");
 var covers = ["assets/images/covers/2.jpg", "assets/images/covers/4.jpg", "assets/images/covers/6.jpg", "assets/images/covers/7.jpg"];
-var headingTitles = ["lvin Tang", "&nbsp;UofT CS Student", "&nbsp;Part-time Sleeper", "&nbsp;Part-time Developer", "&nbsp;Part-time Developer"]
+var headingTitles = ["lvin Tang", "&nbsp;UofT CS Graduate", "&nbsp;Part-time Sleeper", "&nbsp;Part-time Developer", "&nbsp;Part-time Developer"]
 var divisiblePx = 300;
 var lastCoverImg = document.getElementById("covers1");
 
