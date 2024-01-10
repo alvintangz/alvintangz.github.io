@@ -1,0 +1,46 @@
+<mjml>
+    <mj-head>
+        <mj-title>You've got mail!</mj-title>
+        <mj-font
+            name="Rubik"
+            href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap"
+        />
+        <mj-attributes>
+            <mj-all font-family="Rubik, Arial" color="#3a5a40" />
+        </mj-attributes>
+    </mj-head>
+    <mj-body>
+        <mj-section
+            background-color="#dcf4a7"
+            padding-top="50px"
+            padding-bottom="30px"
+        >
+            <mj-column>
+                <mj-text font-weight="700" line-height="0.3px">
+                    <p>You've got mail from {{ name }}:</p>
+                </mj-text>
+                <mj-text font-size="16px" padding-top="0" padding-bottom="0">
+                    <p>{{ message }}</p>
+                </mj-text>
+                <mj-text font-size="12px" line-height="0.5px">
+                    <p>Reply back to {{ email }}.</p>
+                </mj-text>
+                <mj-divider
+                    border-color="#3a5a40"
+                    border-width="2px"
+                ></mj-divider>
+                <mj-text font-weight="700" align="right">
+                    <a
+                        href="https://alvintang.me"
+                        target="_blank"
+                        style="text-decoration: none; color: #3a5a40"
+                    >
+                        <h1 style="text-align: right">
+                            Alvin Tang<span style="color: #de6b48">.</span>
+                        </h1>
+                    </a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>

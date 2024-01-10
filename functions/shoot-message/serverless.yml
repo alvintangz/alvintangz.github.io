@@ -1,0 +1,15 @@
+service: shoot-message
+frameworkVersion: "3"
+
+plugins:
+    - serverless-dotenv-plugin
+
+provider:
+    name: aws
+    runtime: nodejs20.x
+
+functions:
+    api:
+        handler: index.handler
+        events:
+            - httpApi: "*"

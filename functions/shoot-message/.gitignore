@@ -1,0 +1,6 @@
+.serverless
+node_modules
+html.hbs
+
+.env*
+!.env.example
