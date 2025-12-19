@@ -1,0 +1,19 @@
+.form-title {
+    @apply mb-3;
+}
+
+.form-title-icon {
+    @apply mr-2;
+}
+
+.form-personal-box {
+    @apply flex flex-col md:flex-row;
+}
+
+.form-personal-name {
+    @apply md:pr-3;
+}
+
+.form-button {
+    @apply px-3 py-2 rounded-lg enabled:border enabled:border-tertiary text-tertiary bg-quinary hover:enabled:bg-tertiary hover:enabled:text-quinary transition-colors;
+}

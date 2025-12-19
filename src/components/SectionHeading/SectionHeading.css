@@ -1,0 +1,7 @@
+.sh-title {
+    @apply uppercase;
+}
+
+.sh-tagline {
+    @apply text-xs before:content-['('] before:mr-1 after:content-[')'] after:ml-1 cursor-default;
+}

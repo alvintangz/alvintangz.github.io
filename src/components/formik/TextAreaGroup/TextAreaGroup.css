@@ -1,0 +1,3 @@
+.field-textarea {
+    @apply px-3 py-2 rounded-lg border border-tertiary w-full resize-none;
+}

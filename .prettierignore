@@ -1,0 +1,5 @@
+# Ignore functions:
+functions
+
+# Ignore artifacts:
+build
