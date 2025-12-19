@@ -63,8 +63,12 @@ Open [`http://localhost:5173`](http://localhost:5173) to view it in your browser
 Builds the app for production to the `dist` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
+### `npm run deploy`
+
+Runs the build and publishes the `dist` folder to the GitHub pages branch `gh-pages`.
+
 ### `npm run lint`
 
 Runs ESLint to analyze your code for potential errors and enforce consistent styling.
 
-- Use `npm run lint:fix` to fix any problems that are fixable.
+-   Use `npm run lint:fix` to fix any problems that are fixable.
