@@ -166,6 +166,13 @@ const JOURNEY_ITEMS: JourneyItem[] = [
             "Joined the Generative AI team, working directly with the Chief of Staff on internal AI solutions.",
         image: null,
     },
+    {
+        time: "2026",
+        icon: faBriefcase,
+        title: "Senior Software Engineer, Rippling",
+        description: "Moved to NYC to work on Rippling's Time mobile team.",
+        image: null,
+    }
 ];
 
 const REQUEST_RESUME_PROPS = {
