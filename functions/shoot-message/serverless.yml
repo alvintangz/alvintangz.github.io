@@ -1,9 +1,7 @@
 org: alvintang
 app: shoot-message
 service: shoot-message
-
-plugins:
-    - serverless-dotenv-plugin
+useDotenv: true
 
 provider:
     name: aws

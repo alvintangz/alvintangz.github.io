@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useCallback, useState } from "react";
 import { RotatableImage } from "../../types";
 import ImageRotator from "./ImageRotator/ImageRotator";
 
@@ -9,9 +9,9 @@ interface IntroductionProps {
 const Introduction: React.FC<IntroductionProps> = ({ images }) => {
     const [shouldTouchScrollBeNone, setShouldTouchScrollBeNone] = useState<boolean>(true);
 
-    const handleImageChange = (_: RotatableImage, isCompleted: boolean) => {
+    const handleImageChange = useCallback((_: RotatableImage, isCompleted: boolean) => {
         setShouldTouchScrollBeNone(!isCompleted);
-    };
+    }, []);
 
     return (
         <header className={`min-w-dvh min-h-dvh bg-primary py-16 text-white flex flex-col md:flex-row justify-center items-center ${shouldTouchScrollBeNone && "touch-none"}`}>

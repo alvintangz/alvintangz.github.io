@@ -102,7 +102,7 @@ const MouseRotator = ({ images, onImageChange }: MouseRotatorProps) => {
             window.removeEventListener("mousemove", handleMouseMove);
             window.removeEventListener("mouseout", handleMouseOut);
         };
-    }, []);
+    }, [defaultRotatableImage, images, onImageChange]);
 
     return (
         <div ref={mouseRotatorRef}>
